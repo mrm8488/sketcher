@@ -152,12 +152,9 @@ load the class names
 */
 function success(data) {
   const lst = data.split(/\n/);
-  console.log("LA LISTA VALE");
-  console.log(lst);
   for (var i = 0; i < lst.length - 1; i++) {
     let symbol = lst[i];
     classNames[i] = symbol;
-    console.log(classNames);
   }
 }
 
